@@ -1,0 +1,10 @@
+/* Default styles */
+body {
+    margin: 0;
+}
+
+/* Blocks */
+.promo {
+    background: url("../img/leo_bg.jpg") center center/cover no-repeat;
+    min-height: 100vh;
+}
