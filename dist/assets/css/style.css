@@ -350,6 +350,7 @@ body {
 .container {
     max-width: 900px;
     margin: 0 auto;
+    position: relative;
 }
 
 .promo {
@@ -367,8 +368,17 @@ body {
     justify-content: space-between;
 }
 
+.promo__logo {
+    font-family: 'Christmas Regular';
+    font-size: 2rem;
+}
+
 .promo__send {
     display: inline-block;
+}
+
+.promo__main-block {
+    padding-top: 150px;
 }
 
 .promo__send-text {
@@ -379,8 +389,29 @@ body {
 }
 
 .promo__btn-text {
+    line-height: 1.3rem;
     font-family: "Lora";
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.promo__title-block {
+    display: inline-block;
+    margin-right: -2rem;
+}
+
+.promo__title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    font-family: 'Lora';
+    font-weight: 700;
+    line-height: 3.5rem;
+}
+
+.promo__catapult {
+    position: absolute;
+    right: -10%;
+    top: 50%;
+    z-index: 0;
 }
 
 .btn {
@@ -391,4 +422,11 @@ body {
     opacity: 0.6;
     outline: none;
     border: none;
+}
+
+.forma {
+    position: absolute;
+    bottom: -100%;
+    left: 50%;
+    cursor: pointer;
 }
