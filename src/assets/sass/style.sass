@@ -1,12 +1,27 @@
+@import "../../../node_modules/bootstrap/scss/bootstrap-reboot"
 
 
 
 /* Default styles */
+@font-face
+    font-family: 'Christmas Regular'
+    src: url('../fonts/ChristmasScriptC.eot')
+    src: url('../fonts/ChristmasScriptC.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ChristmasScriptC.woff') format('woff'),
+    url('../fonts/ChristmasScriptC.ttf') format('truetype')
+    font-weight: normal
+    font-style: normal
+
+
 body
-    margin: 0
+
+    font-family: 'PT serif', sans-serif
+    font-size: 2rem
 
 
 
 /* Blocks */
 @import "vars"
+@import "blocks/container"
 @import "blocks/promo"
+@import "blocks/btn"
