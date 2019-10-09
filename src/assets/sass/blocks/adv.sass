@@ -5,6 +5,10 @@
         font-size: 2.5rem
         font-weight: 700
         text-align: center
+
+        &--testimon
+            margin: 95px 0 60px 0
+
     &__items
         margin-top: 65px
         display: flex
@@ -26,7 +30,15 @@
     &__testimonials
         &-block
 
-            width: 350px
+            display: flex
+
+            div
+                width: 700px
+                margin-left: 20px
+                display: flex
+                flex-direction: column
+                align-items: flex-end
+
         &-img
             display: inline-block
         &-text
@@ -36,14 +48,15 @@
             line-height: 1.5rem
 
         &-line
-            display: flex
-            align-items: flex-end
-            width: 125px
+            margin-top: 15px
+            max-width: 125px
             height: 3px
-            background-color: #dddddd
+            background-color: #ddd
         &-name
+            margin-top: 12px
             font-size: 1.2rem
             font-weight: 700
             text-align: right
         &-icons
+            margin-top: 20px
             text-align: center

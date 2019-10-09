@@ -547,6 +547,10 @@ body {
     text-align: center;
 }
 
+.adv__title--testimon {
+    margin: 95px 0 60px 0;
+}
+
 .adv__items {
     margin-top: 65px;
     display: -webkit-box;
@@ -588,7 +592,24 @@ body {
 }
 
 .adv__testimonials-block {
-    width: 350px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.adv__testimonials-block div {
+    width: 700px;
+    margin-left: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
 }
 
 .adv__testimonials-img {
@@ -603,23 +624,31 @@ body {
 }
 
 .adv__testimonials-line {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    width: 125px;
+    margin-top: 15px;
+    max-width: 125px;
     height: 3px;
-    background-color: #dddddd;
+    background-color: #ddd;
 }
 
 .adv__testimonials-name {
+    margin-top: 12px;
     font-size: 1.2rem;
     font-weight: 700;
     text-align: right;
 }
 
 .adv__testimonials-icons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.send {
+    padding-top: 100px;
+    background: url("../img/dove_bg.jpg") center center/cover no-repeat;
+}
+
+.send__title {
+    font-size: 36px;
+    font-weight: 700;
     text-align: center;
 }
