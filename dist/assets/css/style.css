@@ -392,6 +392,7 @@ body {
     line-height: 1.3rem;
     font-family: "Lora";
     font-size: 1.2rem;
+    opacity: none;
 }
 
 .promo__title-block {
@@ -416,7 +417,7 @@ body {
 
 .btn {
     width: 230px;
-    height: 50px;
+    height: 56px;
     padding: 15px 30px;
     background-color: #fff;
     opacity: 0.6;
@@ -424,9 +425,114 @@ body {
     border: none;
 }
 
+.btn__catalog {
+    margin-top: 3rem;
+    opacity: 1;
+    font-size: 1.4rem;
+    font-family: 'Lora';
+    line-height: 1.3rem;
+    background-color: #dddddd;
+}
+
 .forma {
     position: absolute;
-    bottom: -100%;
+    bottom: -75%;
     left: 50%;
     cursor: pointer;
+}
+
+.bio__title {
+    margin-top: 60px;
+    text-align: center;
+    color: #000;
+    font-family: 'Christmas Regular';
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.bio__text {
+    width: 740px;
+    margin: 5rem auto 7rem auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+}
+
+.divider {
+    width: 100%;
+    height: 4px;
+    background-color: #ededed;
+    position: relative;
+}
+
+.divider__img {
+    position: absolute;
+    bottom: -35px;
+    right: 47%;
+}
+
+.catalog__item {
+    margin-top: 8.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.catalog__item:last-child {
+    margin-bottom: 130px;
+}
+
+.catalog__item-img {
+    -ms-flex-item-align: center;
+    align-self: center;
+}
+
+.catalog__item-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.catalog__item-text {
+    margin-top: 37px;
+    width: 330px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.catalog__item-misc {
+    margin-top: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.catalog__item-amount {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: .9rem;
+    font-weight: 700;
+}
+
+.catalog__item-trunks {
+    display: inline-block;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.catalog__item-line {
+    display: inline-block;
+    width: 3px;
+    height: 55px;
+    margin: 0 30px 0 30px;
+    background-color: #ededed;
+    -webkit-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
 }
