@@ -201,12 +201,13 @@ The catalog presents the most successful of his military inventions.
 <div class="send">
     <div class="container">
         <h2 class="send__title">Send Pigeon</h2>
-        <form action="post">
-            <input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
-       <input type="text" id="name" name="name" required
-       minlength="4" maxlength="8" size="10">
-       <textarea name="name" rows="8" cols="80"></textarea>
+        <form class="send__form" action="index.html" method="post">
+            <input class="send__input" type="text" placeholder="Your name">
+             <input class="send__input" type="email" placeholder="Your email">
+             <div>
+                 <textarea class="send__text" placeholder="Your message"></textarea>
+                 <input class="btn send__submit" type="submit" value="send">
+             </div>
         </form>
     </div>
 </div>
